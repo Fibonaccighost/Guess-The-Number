@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <style>
+        body {
+            background-color: black;
+            color: green;
+            font-size: 3vw;
+            padding: 10px 20px;
+        }
+
+        button {
+            background-color: #b3aeae;
+            color: #01020b;
+            font-size: 3vw;
+            border: 1vw solid transparent;
+            padding: 1vw 1vh;
+            border-radius: 3vw;
+            cursor: pointer;
+            margin: 10px 0px;
+            width: 60vw;
+        }
+
+        button:hover{
+            background-color: #d5cece;
+        }
+
+        #guessDisplay {
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+        }
+
+        #guessDisplay p {
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p>Random Number is Generated which could be anything from 1 to 100</p>
+        <p>Try to Guess The Number</p>
+        <p>100 Trys Only</p>
+    </div>
+    <button>Make Guess</button>
+    <div id="guessDisplay">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
